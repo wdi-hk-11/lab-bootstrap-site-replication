@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head -->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -11,68 +12,222 @@
 
     <title>The Next Web</title>
 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
 
     <script src="js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
 
     <link href="css/custom.css" rel="stylesheet">
   </head>
 
+  <!-- Body -->
   <body>
-
+    <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <!-- Navbar after Collapse -->
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <a class="glyphicon glyphicon-search"></a>
           </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#followbar" aria-expanded="false" aria-controls="navbar">
+            <a class="glyphicon glyphicon-user"></a>
+          </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#followbar" aria-expanded="false" aria-controls="followbar">
+            <span>FOLLOW</span>
+            <span class="caret"></span>
+          </button>
+
           <a class="navbar-brand" href="#">
             <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
           </a>
         </div>
+
+        <!-- Navbar before Collapse -->
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+          <!-- Left float items -->
+          <ul class="nav navbar-nav navbar-left nav-items">
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONFERENCE</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">PRO</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
+
+          <!-- Right float items -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <span class="visible-xs">Follow</span>
+                <span class="caret"></span>
+              </a>
+
+              <!-- Dropdown Content -->
+              <ul class="dropdown-menu dropdown-menu-lg" role="menu">
+                <li class="col-xs-4">
+                  <a href="">Facebook</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">Twitter</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">LinkedIn</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">Facebook</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">Twitter</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">LinkedIn</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">Facebook</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">Twitter</a>
+                </li>
+                <li class="col-xs-4">
+                  <a href="">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="#" class="glyphicon glyphicon-user"></a></li>
+            <li><a href="#" class="glyphicon glyphicon-info-sign"></a></li>
+            <li><a href="#" class="glyphicon glyphicon-search"></a></li>
+            <form class="navbar-form navbar-right">
+              <input type="text" class="form-control" placeholder="Search...">
+            </form>
+          </ul>
         </div>
+      </div>
+      
+      <!-- Navbar Dropdown after Collapse -->
+      <div id="followbar" class="followbar-collapse collapse">
+        <ul class="dropdown-menu dropdown-menu-xs" role="menu">
+          <li class="col-xs-4">
+            <a href="">Facebook</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">Twitter</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">LinkedIn</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">Facebook</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">Twitter</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">LinkedIn</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">Facebook</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">Twitter</a>
+          </li>
+          <li class="col-xs-4">
+            <a href="">LinkedIn</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
+    <!-- Container -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="sidebar visible-lg col-lg-3">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
+            <li class="col-lg-12">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdown_all_channels" data-toggle="dropdown" aria-expanded="true">
+                  <span class="col-lg-11">ALL CHANNELS</span>
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu channel-dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="col-lg-12 sidebar-button-group">
+              <button class="btn btn-default col-lg-6"> LATEST</button>
+              <button class="btn btn-default col-lg-6"> POPULAR</button>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/beauty.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/dress.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/fireshot.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/kits.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/square.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+        <div class="col-sm-12 col-lg-9 main wrapping">
+          <div class="hidden-xs col-sm-12 text-center main-message">
+            Support TNW - <a href="#">become Pro</a> and we can ditch the banners.
+          </div>
+          <div class="col-xs-12 content-background">
+            <div class="col-xs-12 col-sm-8">
+              <img src="images/main/square.jpg" class="img-responsive">
+              By <a href="#">BEN WOODS</a> – 20 Nov' 14
+              <h2>Square officially launches its Register software platform worldwide</h2>
+              <p>Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a href="#">Keep reading -></a></p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="images/main/dress.jpg" class="img-responsive">
+              <h3>
+                The weird science of first impressions
+              </h3>
+              <img src="images/main/fireshot.png" class="img-responsive">
+              <h3>
+                Adidas now lets Americans print photos on their sneakers too
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -85,5 +240,5 @@
     <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
+  </body>
 </html>

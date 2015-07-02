@@ -1,3 +1,5 @@
+**[Answer]**
+
 Week 1: Bootstrap Lab
 =================
 
