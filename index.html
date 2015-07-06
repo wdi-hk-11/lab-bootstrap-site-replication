@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A clone of The Next Web">
+    <meta name="author" content="Harry Chen">
+
+    <!-- favicon -->
     <link rel="icon" href="images/favicon/favicon.ico">
 
     <title>The Next Web</title>
@@ -105,9 +107,9 @@
       
       <!-- Navbar Dropdown after Collapse -->
       <div id="followbar" class="followbar-collapse collapse">
-        <ul class="dropdown-menu dropdown-menu-xs" role="menu">
+        <ul class="dropdown-menu dropdown-menu-xs visible-xs" role="menu">
           <li class="col-xs-4">
-            <a href="">Facebook</a>
+            <a href="">Facebook (after)</a>
           </li>
           <li class="col-xs-4">
             <a href="">Twitter</a>
@@ -140,8 +142,8 @@
     <!-- Container -->
     <div class="container-fluid">
       <div class="row">
-        <div class="sidebar visible-lg col-lg-3">
-          <ul class="nav nav-sidebar">
+        <section class="sidebar visible-lg col-lg-3">
+          <ul class="nav nav-sidebar nav-options">
             <li class="col-lg-12">
               <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdown_all_channels" data-toggle="dropdown" aria-expanded="true">
@@ -158,6 +160,53 @@
             <li class="col-lg-12 sidebar-button-group">
               <button class="btn btn-default col-lg-6"> LATEST</button>
               <button class="btn btn-default col-lg-6"> POPULAR</button>
+            </li>
+          </ul>
+          <ul class="nav nav-sidebar nav-articles">
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/beauty.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/dress.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/fireshot.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/kits.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/square.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
             </li>
             <li class="col-lg-12 article-thumbnail-item">
               <div class="col-lg-3 thumbnail-picture">
@@ -205,19 +254,19 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="col-sm-12 col-lg-9 main wrapping">
-          <div class="hidden-xs col-sm-12 text-center main-message">
+        </section>
+        <section class="col-sm-12 col-lg-9 main wrapping">
+          <section class="hidden-xs col-sm-12 text-center main-message">
             Support TNW - <a href="#">become Pro</a> and we can ditch the banners.
-          </div>
-          <div class="col-xs-12 content-background">
-            <div class="col-xs-12 col-sm-8">
+          </section>
+          <section class="col-xs-12 content-background">
+            <section class="col-xs-12 col-sm-8">
               <img src="images/main/square.jpg" class="img-responsive">
               By <a href="#">BEN WOODS</a> – 20 Nov' 14
               <h2>Square officially launches its Register software platform worldwide</h2>
               <p>Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a href="#">Keep reading -></a></p>
-            </div>
-            <div class="col-xs-12 col-sm-4">
+            </section>
+            <section class="col-xs-12 col-sm-4">
               <img src="images/main/dress.jpg" class="img-responsive">
               <h3>
                 The weird science of first impressions
@@ -226,9 +275,9 @@
               <h3>
                 Adidas now lets Americans print photos on their sneakers too
               </h3>
-            </div>
-          </div>
-        </div>
+            </section>
+          </section>
+        </section>
       </div>
     </div>
 
@@ -238,7 +287,5 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

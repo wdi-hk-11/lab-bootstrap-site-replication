@@ -23,6 +23,7 @@ body {
 
 .sidebar {
   background-color: white;
+  overflow: visible;
 }
 
 .wrapping {
@@ -101,7 +102,7 @@ body {
 }
 
 .dropdown-menu-xs {
-  width: 400px;
+  width: 100vw;
   display: inline-block;
   background-color: #2a3540;
 }
@@ -123,6 +124,17 @@ body {
 .navbar-left {
   position: absolute;
   left: 100px;
+}
+
+.nav-options {
+  position: absolute;
+  width: 100%;
+}
+
+.nav-articles {
+  margin-top: 100px;
+  overflow: scroll;
+  height: 74vh;
 }
 
 #navbar > .nav-items > li > a:hover {
