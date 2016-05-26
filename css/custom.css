@@ -1,1 +1,97 @@
-/* You can include your custom styling here */
+.toped {
+	text-align: center;
+}
+
+a {
+	color: #FF9900;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.bigbox {
+	margin: 30px;
+	background-color: white;
+	padding:20px;
+	border: 2px solid rgba(180,180,180,0.5);
+}
+.hugebox {
+	background-color: rgba(204,204,204,0.5);
+}
+.navbar {
+	margin: 0px;
+	border-bottom: 1px solid grey;
+}
+.container-fluid {
+	outline-offset: 0px;
+}
+.navlogo {
+	width: 70px;
+	margin: 0;
+}
+body {
+	padding:0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: inherit;
+    color: red;
+    border-bottom: 2px solid red;
+}
+#dropitdown {
+
+}
+.btn {
+	margin:7.5px 0 0 0;
+}
+.pros {
+	background-color: black;
+}
+.dropdown-menu {
+	background-color: grey;
+	margin: 0;
+	max-width: 250px;
+}
+.cooldown {
+	display: inline-table;
+	border:1px solid black;
+}
+.table {
+	margin:0;
+	padding: 0;
+	border-radius: 10px
+}
+.dropdown-menu {
+	border-radius: 10px
+}
+td {
+	margin: 0;
+	padding: 40px;
+}
+.sidebar {
+	margin-top: 10px;
+}
+#dropdown_all_channels {
+	width: 100%;
+	background-color: red;
+}
+h5 {
+	font-size: 10px;
+}
+.thumbnail-title {
+	border-top: 1px solid black;
+}
+li.ddm {
+	padding: 20px 10px 20px 0px;
+	margin: 0px; 
+	font-family: monospace;
+	font-style: bold;
+	overflow: wrap;
+	text-align: left;
+}
+li.ddm:hover {
+	background-color: rgba(0,0,0,.6);
+	color: white;
+}
+
+
