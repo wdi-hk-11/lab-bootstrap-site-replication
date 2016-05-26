@@ -1,1 +1,118 @@
-/* You can include your custom styling here */
+
+
+.main{
+  background-color: #F5F5F7;
+  overflow: hidden;
+}
+.show{
+ background-color:  #FFFFFF;
+}
+.thumbnails{
+  padding-top:30px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  width:100%;
+}
+
+
+
+.photos{
+  padding-top:30px;
+  width: 100%;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+.content{
+  padding-bottom: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar-left{
+  text-transform: uppercase;
+}
+
+.navbar-left a:hover{
+border-bottom: 2px solid orange;
+
+}
+
+.navbar{
+  background-color: white;
+  width: 100%
+}
+
+.glyphicon{
+   margin-top: 20px;
+   float:right;
+   border-top: none;
+   margin-right:10px;
+
+}
+
+.list-group-item a{
+
+overflow: hidden;
+margin-right: 0px;
+padding-right: 0px;
+background-color: white;
+height: 50px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    border-color: grey;
+    color: black;
+    background-color: white;
+
+  }
+
+.icons{
+        width: 100px;
+    margin: 10px;
+}
+
+
+.list-group-item-heading{
+  width:250px;
+  display: inline-block;
+   overflow: hidden;
+   margin-left: 10px;
+}
+
+.list-group-item-text{
+
+  margin-left: 10px;
+  color: grey ;
+  font-style: italic;
+}
+
+
+.btn-danger{
+  color:white;
+  font-size: 20px;
+  width:100%;
+}
+
+#allchannel .btn{
+  width: 340px;
+  margin-left: 10px;
+}
+
+#twobuttons .btn{
+  width:160px;
+  margin-left: 10px;
+
+}
+
+#content .nav{
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+
