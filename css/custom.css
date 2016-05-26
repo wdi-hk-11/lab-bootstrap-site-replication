@@ -1,5 +1,10 @@
-#mainmessage {
-  text-align: center;
+/*Global*/
+a{
+  color: #ef4423;
+}
+
+h5 {
+  margin:0;
 }
 
 .img-responsive {
@@ -7,6 +12,15 @@ width:100%;
 
 }
 
+
+/*Navbar*/
+
+#navbar .nav a:hover{
+color:red;
+border-bottom: 2px solid red;
+}
+
+/*Sidebar*/
 .dropul {
   margin-top: 40px;
 }
@@ -16,19 +30,28 @@ width:100%;
   padding: 0;
 }
 
-
 .list-group-item {
   height: auto;
 }
 
-.news {
+.sidebar {
+  position: fixed;
+  overflow: visible;
+}
+
+#sidenews.news {
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-a{
-  color: #ef4423;
-}
 
-h5 {
-  margin:0;
+
+
+
+
+/*Main*/
+
+#mainmessage {
+  text-align: center;
 }
