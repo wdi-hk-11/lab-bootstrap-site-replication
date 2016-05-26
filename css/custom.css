@@ -1,1 +1,33 @@
 /* You can include your custom styling here */
+.img-responsive {
+  width: 100%;
+}
+
+a {
+  color: #ef4423;
+}
+
+.content-background .col-xs-12 {
+  border-width: 2px solid #eceff0;
+  padding: 20px;
+}
+
+.col-sm-12 {
+  padding: 20px;
+}
+
+.main {
+  background-color: lightgrey;
+}
+
+.container-fluid {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#content {
+  background-color: white;
+}
+
+.navbar-right {
+  float: right;
+}
