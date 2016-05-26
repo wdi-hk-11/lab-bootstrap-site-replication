@@ -57,24 +57,36 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+
+
+          <!-- dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-danger" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown trigger
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+              <li>Denis</li>
+              <li>Angel</li>
+              <li>Jens</li>
+            </ul>
+          </div>
+
+          <!-- button group -->
+          <div>
+            <button class="btn btn-default col-xs-6">LASTEST</button>
+            <button class="btn btn-default col-xs-6">POPULAR</button>
+          </div>
+
+
+          <ul class="list-group"><!-- List Info Start -->
+            <li class="list-group-item">
+              <img class="pull-left" src="images/sidebar/square-reader.jpg" alt="">
+              <p>9 Myths About Social Media at Work</p>
+              <p>33 minutes ago</p>
+            </li>
+          </ul><!-- List Info End -->
+
         </div>
         <section class="hidden-xs col-sm-12 text-center main-message">
           Support TNW - <a href="#">become Pro</a> and we can ditch the banners.
