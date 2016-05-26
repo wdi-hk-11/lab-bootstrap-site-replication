@@ -1,1 +1,48 @@
-/* You can include your custom styling here */
+img.responsive{
+  width: 100%;
+}
+
+.sidebar .dropdown-toggle, .sidebar .btn-group{
+  width: 100%;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+.caret{
+  text-align: right;
+}
+
+.navbar-right a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+#bs-example-navbar-collapse-1{
+  background-color: white;
+}
+
+.navbar-right .dropdown{
+  display: inline;
+}
+
+#contentwindow{
+  background-color: lightgray;
+}
+
+#contentwindow a{
+  text-decoration: none;
+  color: red;
+  min-height: 100%;
+}
+
+#innercontent{
+  background-color: white;
+  min-height: 1080px;
+  border: 1px gray solid;
+}
+
+#contentwindow .centered{
+  margin: 0 auto;
+}

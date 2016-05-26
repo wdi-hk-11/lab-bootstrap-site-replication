@@ -22,6 +22,7 @@
 
   <body>
 
+  <!-- Begin NAV section -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -35,46 +36,92 @@
             <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
           </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+
+        <!-- Left hand side of NAV -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONFERENCE</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">PRO</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
+          <!-- Right hand side of NAV -->
+          <form class="navbar-form navbar-right" role="search">
+            <span>
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </span>
+            <a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+            <a href=""><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+            <a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
           </form>
-        </div>
-      </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
 
+    <!-- Start Everything Below NAV-->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+        <!-- Start Sidebar -->
+        <div class="col-sm-4 col-md-3 hidden-sm hidden-md sidebar">
+          <!-- Split button -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ALL CHANNELS <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        <!-- End Sidebar -->
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+
+        <!-- Start Main Content Window -->
+
+        <div id="contentwindow" class="col-lg-9 col-lg-offset-3 col-md-12 col-sm-12 main">
+          <div class="col-md-6 col-md-offset-3 hidden-sm hidden-xs">
+          <p>Support TNW - <a href="">become Pro</a> and we can ditch the banners.</p>
+          </div>
+
+          <div id="innercontent" class="col-sm-12">
+            <div class="col-sm-8 col-sm-offset-0 inline">
+              <img class="responsive" src="images/main/Square-Reader-520x245.jpg" alt="Square Reader">
+              <p>By <a href="">BEN WOODS</a> - Nov'14</p>
+              <h2>Square officially launches its Register software platform worldwide</h2>
+              <p>Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a href="">Keep reading -></a></p>
+            </div>
+            <div class="col-sm-4 col-sm-offset-0 rightside">
+              <div>
+              <img class="responsive" src="images/main/well-dressed-man-in-coat-520x245.jpg" alt="man in coat">
+              <h3>The weird science of first impressions</h3>
+              </div>
+              <div>
+              <img class="responsive" src="images/main/adidas-520x245.png" alt="adidas">
+              <h3>Adidas now lets Americans print photos on their sneakers too</h3>
+              </div>
+            </div>
+          </div>
+
+        <!-- End Main Content Window -->
         </div>
+      <!-- End Row -->
       </div>
+    <!-- End Everything Below NAV -->
     </div>
 
     <!-- Bootstrap core JavaScript
