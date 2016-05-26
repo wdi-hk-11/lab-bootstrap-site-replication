@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -21,7 +22,7 @@
   </head>
 
   <body>
-
+<!-- #Navbar  -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -34,14 +35,31 @@
           <a class="navbar-brand" href="#">
             <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
           </a>
+           <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">blog</a></li>
+            <li><a href="#">conference</a></li>
+            <li><a href="#">deals</a></li>
+            <li><a href="#">pro</a></li>
+          </ul>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
+<div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown trigger
+    <span class="caret"></span>
+     </button>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <!-- glyphicon button attempt -->
+            <li><a href="#"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></li>
             <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
           </ul>
+  </ul>
+</div>
+
+<!-- Search tab on #navbar -->
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
           </form>
@@ -49,33 +67,51 @@
       </div>
     </nav>
 
+
+    <!-- #Sidebar : fixing overflow problem-->
+   <div id="sidebar">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+         <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+
         </div>
       </div>
-    </div>
+
+
+        <!-- Content  : fixing grid-->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <header>
+            Support TNW - <a id="becomepro" href="#">become Pro</a> and we can ditch the banners.
+          </header>
+          <div class="row">
+            <div class="col-sm-8">.col-sm-8
+            <img src="images/main/Square-Reader-520x245.jpg"/></div>
+            <div class="col-sm-4">.col-sm-4
+
+            <img src="images/main/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-520x245.png" />
+
+             <div class="col-sm-12"><p>The weird science of first impressions</p></div>
+             <div class="col-sm-12">.col-sm-12</div>
+             <div class="col-sm-12">.col-sm-12</div>
+             <div class="col-sm-12">.col-sm-12</div>
+
+             </div>
+        </div>
+       </div>
+      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
