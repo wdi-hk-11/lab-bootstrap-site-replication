@@ -21,58 +21,202 @@
   </head>
 
   <body>
+<!-- Header Start -->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
-          </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
-        </div>
-      </div>
-    </nav>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="www.google.com"><img class="navlogo" src="./images/logo/tnw-logo.svg"></a>
+    </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
+<!-- navbar left -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class="navi" href="www.blog.com">BLOG<span class="sr-only">(current)</span></a></li>
+        <li class="navi"><a href="www.Linked.com">CONFERENCE</a></li>
+        <li class="navi"><a href="www.Linked.com">DEALS</a></li>
+        <li class="navi"><a href="www.Linked.com">PRO</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+<!-- navbar right -->
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu container">
+            <li class="ddm col-xs-4">Twitter</li> 
+            <li class="ddm col-xs-4">Instagram</li>
+            <li class="ddm col-xs-4">Twitter</li>
+            <li class="ddm col-xs-4">Facebook</li>
+            <li class="ddm col-xs-4">Instagram</li>
+            <li class="ddm col-xs-4">Facebook</li>
           </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
+          <li><a href="#" class="glyphicon glyphicon-user"></a></li>
+          <li><a href="#" class="glyphicon glyphicon-info-sign"></a></li>
+        </li>
+          <li><a href="#" class="glyphicon glyphicon-search"></a></li>
+          <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- navbar end -->
+
+<!-- sidebar -->
+      <section class="sidebar visible-lg col-s-2 col-md-2 col-lg-2">
+          <ul class="nav nav-sidebar nav-options">
+            <li class="col-lg-12">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdown_all_channels" data-toggle="dropdown" aria-expanded="true">
+                  <span class="col-lg-11">ALL CHANNELS</span>
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu channel-dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="col-lg-12 sidebar-button-group">
+              <button class="btn btn-default col-lg-6"> LATEST</button>
+              <button class="btn btn-default col-lg-6"> POPULAR</button>
+            </li>
           </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
+          <ul class="nav nav-sidebar nav-articles">
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="./images/sidebar/kits-and-themese-feat-60x50.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
           </ul>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+
+
+        </section>
+
+<!-- sidebar end -->
+ 
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main hugebox">
+          <div class="col xs-12 toped"> Support TNW - <a class="links" href="www.linked.com">become pro</a> and we can ditch the banners. </div>
+        <div class="col-xs-12 bigbox">  
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <img class="img-responsive" alt="Responsive image" id="Squarereader" src="./images/main/Square-Reader-520x245.jpg">
+            <p> By <a class="links" href="www.link.com"> BEN WOODS</a> - 20 NOV' 14</p>
+            <h2 class="articletitle"> Square officially launches its register software platform worldwide</h2>
+            <p class="articletext">Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a class="links" href="www.links.com"> Keep reading -> </a></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+            <div class="col-xs-12">
+              <img class="img-responsive" alt="Responsive image" id="coat" src="./images/main/well-dressed-man-in-coat-520x245.jpg">
+              <h2 class="articletitle"> 
+                The weird science of first impressions
+              </h2>
+            </div>
+
+            <div class="col-xs-12">
+              <img class="img-responsive" alt="Responsive image" id="shoes" src="./images/main/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-520x245.png">
+              <h2 class="articletitle"> 
+                Adidas now lets Americans prints photos on their sneakers too
+              </h2>
+            </div>
+          </div>
+          </div>
+
+          </div>
         </div>
       </div>
     </div>
