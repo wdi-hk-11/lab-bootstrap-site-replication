@@ -1,1 +1,4 @@
-/* You can include your custom styling here */
+#navbar > .nav-items > li > a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
