@@ -45,23 +45,74 @@ border-bottom: 2px solid orange;
 
 .navbar{
   background-color: white;
+  width: 100%
 }
 
-.btn{
-   margin-top: 10px;
+.glyphicon{
+   margin-top: 20px;
    float:right;
    border-top: none;
-   border-bottom: none;
-    border-radius: 0px;
+   margin-right:10px;
 
 }
 
-.list-group-item{
+.list-group-item a{
+
+overflow: hidden;
+margin-right: 0px;
+padding-right: 0px;
+background-color: white;
+height: 50px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    border-color: grey;
+    color: black;
+    background-color: white;
+
+  }
+
+.icons{
+        width: 100px;
+    margin: 10px;
+}
+
+
+.list-group-item-heading{
+  width:250px;
   display: inline-block;
-  overflow: hidden;
-margin: 0px;
+   overflow: hidden;
+   margin-left: 10px;
+}
+
+.list-group-item-text{
+
+  margin-left: 10px;
+  color: grey ;
+  font-style: italic;
+}
+
+
+.btn-danger{
+  color:white;
+  font-size: 20px;
+  width:100%;
+}
+
+#allchannel .btn{
+  width: 340px;
+  margin-left: 10px;
+}
+
+#twobuttons .btn{
+  width:160px;
+  margin-left: 10px;
 
 }
 
+#content .nav{
+overflow-x: hidden;
+overflow-y: auto;
+}
 
 
