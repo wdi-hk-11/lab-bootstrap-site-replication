@@ -1,1 +1,106 @@
-/* You can include your custom styling here */
+/* general */
+body {
+  color: #4E5860;
+}
+a {
+  color: #FF3C1F;
+}
+
+p {
+  line-height:16px;
+}
+
+.maincontainer {
+  background-color: #F8F9FA;
+  padding: 0;
+}
+
+.container-fluid {
+  border-bottom: 2px solid #D9E0E2;
+  background-color: white;
+  padding: 0;
+}
+
+.maincontent {
+  display: block;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: white;
+  height: 120%;
+  border: 2px solid #ECEFF0;
+  min-height: 700px;
+}
+
+.main {
+  background-color: #F8F9FA;
+
+}
+
+.sidebar {
+  background-color: white;
+}
+
+/* navbar */
+#navbar>.navlist>li>a {
+  border-bottom: 2px solid transparent
+}
+
+#navbar>.navlist>li>a:hover {
+  border-bottom: 2px solid #FF3C1F;
+  color: #FF3C1F;
+}
+
+.dropdown-menu .col-lg-4 a {
+  height: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+.navbar-right .dropdown-menu {
+  width: 400px;
+  background-color: #2A3540;
+  padding: 16px 0;
+}
+
+.searchbar {
+  margin-right: 10px;
+}
+
+.navbar-brand img {
+  margin-left: 10px;
+}
+
+/*sidebar top*/
+.nav-sidebar.channelnav {
+  padding: 0 10px;
+}
+
+#channelsearch {
+  background-color: #FF3C1F;
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding: 6px 0;
+}
+
+.channel-filter {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/*sidebar bottom*/
+.sidebar-news {
+  padding-top: 5px;
+  border-bottom: 2px solid #F0F3F3;
+}
+
+.sidebar-cap {
+  padding: 0;
+}
+
+.sidebar-news img {
+  padding: 7px;
+}
