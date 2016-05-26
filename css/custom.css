@@ -1,1 +1,125 @@
-/* You can include your custom styling here */
+.navbar-default {
+  background-color: white;
+  border-bottom: 2px solid #d9e0e2;
+}
+
+.content {
+  background-color: white;
+  border: 2px solid #eceff0;
+  padding: 30px;
+  min-height: 600px;
+}
+
+.hidden-xs {
+  text-align: center;
+}
+
+.main {
+  background-color: #f8f9fa;
+}
+
+/*.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+  color: red;
+  border-bottom: 2px solid red;
+}*/
+
+
+
+.navbar-left {
+  position: absolute;
+  left: 100px;
+}
+
+/*ul.nav a:hover {
+  color:#ef4423 !important;
+}*/
+.dropdown {
+  position: relative;
+  top: 10px;
+ }
+
+ .navbar-nav .dropdown-menu {
+  width: 400px;
+  background-color: black;
+
+ }
+ .dropdown-menu .col-xs-4 {
+    color: white;
+    text-align: center;
+ }
+
+ .dropdown-menu div a {
+  padding: 20px;
+  display:block;
+  color: white;
+ }
+
+ .dropdown-menu div a:hover {
+    color: black !important;
+    background-color: white;
+ }
+
+/*-------Side Bar-----------*/
+.hidden-sm {
+  background-color: white;
+}
+
+#nav-select {
+  padding-bottom:10px;
+  border-bottom: 2px solid #d9e0e2;
+}
+
+#nav-content {
+  height: auto;
+}
+
+#nav-content li{
+  border-bottom: 1px solid #d9e0e2;
+  padding-top:10px;
+}
+
+
+/* Nav */
+
+#nav-left li a:hover,
+#nav-left li a:focus {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+/* Sidebar */
+
+#nav-select .btn-group {
+  width: 100%;
+}
+#nav-select button.btn-danger {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#nav-select button.btn-default {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#nav-content {
+  overflow: scroll;
+}
+#nav-content div.col-md-3 {
+  padding-right: 0px;
+}
+
+#nav-content div.col-md-8 {
+  padding-right: 0;
+}
+
+#nav-footer {
+  padding: 0;
+  text-align: center;
+}
+
+#nav-footer li{
+  display: inline;
+  padding: 3px;
+}
