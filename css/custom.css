@@ -1,1 +1,62 @@
-/* You can include your custom styling here */
+img {
+
+padding: 5px;
+
+
+
+}
+
+section {
+
+margin-top: 10 px;
+
+}
+
+.buttons button {
+
+width: 70px;
+padding: 7px;
+
+}
+
+#dropdownMenu1 {
+
+  width: 150px;
+  padding: 6px;
+  margin-top: 6px;
+  background-color: red;
+  color: white;
+}
+
+.nav li li {
+
+display: inline-block;
+
+}
+
+li img {
+
+  box-sizing: 30px;
+  height: 30px;
+  display: inline-block;
+
+}
+
+
+
+
+.buttons {
+  align-self: center;
+  padding: 5px;
+}
+
+.col-md-4 img, .col-lg-4 img {
+
+
+height: 130px;
+}
+
+.smallbox {
+
+  background-color: blue;
+}/* You can include your custom styling here */
