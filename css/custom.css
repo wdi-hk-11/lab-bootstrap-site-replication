@@ -1,1 +1,46 @@
-/* You can include your custom styling here */
+#navbar {
+
+
+}
+
+
+.navbar-left {
+  text-transform: capitalize;
+}
+
+#sidebar {
+  positon: relative;
+  top: 100px;
+  overflow: auto;
+
+
+}
+
+#content {
+
+
+
+
+}
+
+/*Content*/
+.col-sm-12 {
+  background-color: green;
+}
+p {
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 25px;
+}
+img {
+  size: auto;
+}
+.col-sm-8 {
+  background-color: red;
+}
+.col-sm-4 {
+  background-color: blue;
+}
+#becomepro {
+  color: red;
+}
