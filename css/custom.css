@@ -1,1 +1,86 @@
-/* You can include your custom styling here */
+img {
+
+padding: 0px;
+
+
+
+}
+
+section {
+
+margin-top: 10 px;
+
+}
+
+.buttons button {
+
+width: 70px;
+padding: 7px;
+
+}
+
+#dropdownMenu1 {
+
+  width: 110px;
+  padding: 6px;
+  margin-top: 6px;
+  background-color: red;
+  color: white;
+}
+
+.nav-sidebar li {
+
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+li img {
+
+
+  box-sizing: 100px;
+  height: 100px;
+  display: inline-block;
+
+}
+
+.article-thumbnail-item img {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+}
+
+.socialmedia-menu {
+
+width: 400px;
+height:100px;
+
+color: black;
+}
+
+.socialmedia-menu div{
+
+left : 10%;
+top :5%;
+
+padding: 5px;
+}
+
+
+
+
+.buttons {
+  align-self: center;
+  padding: 5px;
+}
+
+.col-md-4 img, .col-lg-4 img {
+
+
+height: 130px;
+}
+
+.smallbox {
+
+  background-color: blue;
+}/* You can include your custom styling here */
