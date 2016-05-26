@@ -21,7 +21,7 @@
   </head>
 
   <body>
-
+    <!-- TOP NAVIGATION -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -36,43 +36,186 @@
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+          <!-- left nav -->
+          <ul class="nav navbar-nav navbar-left navlist">
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONFERENCE</a></li>
+            <li><a href="#">DEALS</a></li>
+            <li><a href="#">PRO</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
+          <!-- end of left nav -->
+          <!-- right nav -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" aria-hidden="true">
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenushare">
+                <li class="col-lg-4"><a href="#">Facebook</a></li>
+                <li class="col-lg-4"><a href="#">Twitter</a></li>
+                <li class="col-lg-4"><a href="#">LinkedIn</a></li>
+                <li class="col-lg-4"><a href="#">Facebook</a></li>
+                <li class="col-lg-4"><a href="#">Twitter</a></li>
+                <li class="col-lg-4"><a href="#">LinkedIn</a></li>
+                <li class="col-lg-4"><a href="#">Facebook</a></li>
+                <li class="col-lg-4"><a href="#">Twitter</a></li>
+                <li class="col-lg-4"><a href="#">LinkedIn</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="glyphicon glyphicon-user" aria-hidden="true"></a></li>
+            <li><a href="#" class="glyphicon glyphicon-info-sign" aria-hidden="true"></a></li>
+            <li><a href="#" class="glyphicon glyphicon-search" aria-hidden="true"></a></li>
+            <li><form class="navbar-form navbar-right searchbar">
+            <input type="text" class="form-control" placeholder="Search..."></form></li>
+          </ul>
+          <!-- end of right nav -->
         </div>
       </div>
     </nav>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
-          </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+    <div class="col-lg-12 maincontainer">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- SIDEBAR -->
+          <div class="col-sm-3 col-md-3 visible-lg-* sidebar">
+            <!-- channel navigation -->
+            <div class="nav channeltop">
+              <ul class="nav nav-sidebar channelnav">
+                <li class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="channelsearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="channel-drop col-lg-11">ALL CHANNELS</span>
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Test</a></li>
+                    <li><a href="#">Test</a></li>
+                    <li><a href="#">Test</a></li>
+                  </ul>
+                </li>
+                <li class="channel-filter">
+                  <button type="button" class="btn btn-default col-lg-6">LATEST</button>
+                  <button type="button" class="btn btn-default col-lg-6">POPULAR</button>
+                </li>
+              </ul>
+            </div>
+            <!-- sidebar news -->
+            <div class="nav sidebartop">
+              <ul class="nav nav-sidebar sidebar-news">
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/Full-Page-Beauty-Bundle-Screenshot-3-1-60x50.png" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/well-dressed-man-in-coat-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-60x50.png" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/kits-and-themese-feat-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                 <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/Square-Reader-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/Full-Page-Beauty-Bundle-Screenshot-3-1-60x50.png" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/well-dressed-man-in-coat-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-60x50.png" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/kits-and-themese-feat-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                 <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/Square-Reader-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-60x50.png" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/kits-and-themese-feat-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+                 <li class="col-lg-12 sidebar-news">
+                  <img class="img-responsive col-lg-3" src="images/sidebar/Square-Reader-60x50.jpg" alt="" />
+                  <div class="col-lg-9 sidebar-cap">
+                    <p>9 Myths About Social Media at Work</p>
+                    <p>33 minutes ago</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1>News Content</h1>
+          <!-- MAIN CONTENT -->
+          <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 main">
+            <div class="text-center hidden-xs">Support TNW - <a>become Pro</a> and we can ditch the banners.</div>
+            <!-- featured article page -->
+            <section class="col-sm-12 col-md-12 maincontent">
+              <div class="col-sm-12 col-md-8">
+                <img class="img-responsive" src="images/main/square-reader-520x245.jpg" alt="" />
+                <p>By <a>BEN WOODS</a> – 20 Nov' 14</p>
+                <h2>Square officially launches its Register software platform worldwide</h2>
+                <p>Square has today announced that its point-of-sale (POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan. Announced at The Financial...<a>Keep reading -></a></p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <img class="img-responsive" src="images/main/well-dressed-man-in-coat-520x245.jpg" alt="" />
+                <h3>The weird science of first impressions</h3>
+                <img class="img-responsive" src="images/main/FireShot-Screen-Capture-357-adidas-Originals-I-mi-ZX-FLUX-Photo-Print-App-www_adidas_co_uk_mizxflux-520x245.png" alt="" />
+                <h3>Adidas now lets Americans print photos on their sneakers too</h3>
+              </div>
+            </section>
+            <!-- end of featured article page -->
+          </div>
         </div>
       </div>
     </div>
