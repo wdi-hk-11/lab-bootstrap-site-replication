@@ -36,10 +36,6 @@ p {
 
 }
 
-.sidebar {
-  background-color: white;
-}
-
 /* navbar */
 #navbar>.navlist>li>a {
   border-bottom: 2px solid transparent
@@ -74,8 +70,20 @@ p {
 }
 
 /*sidebar top*/
-.nav-sidebar.channelnav {
+.sidebar {
+  overflow: hidden;
+  background-color: white;
+  padding: 0;
+}
+
+.nav-sidebar .sidebar {
+  position: absolute;
+  padding-top: 0;
+}
+
+.channelnav {
   padding: 0 10px;
+  margin: 20px 5px;
 }
 
 #channelsearch {
@@ -95,6 +103,15 @@ p {
 .sidebar-news {
   padding-top: 5px;
   border-bottom: 2px solid #F0F3F3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebartop {
+  padding-bottom: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 800px;
 }
 
 .sidebar-cap {
@@ -104,3 +121,4 @@ p {
 .sidebar-news img {
   padding: 7px;
 }
+
