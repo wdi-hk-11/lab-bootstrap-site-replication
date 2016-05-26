@@ -1,6 +1,6 @@
 img {
 
-padding: 5px;
+padding: 0px;
 
 
 
@@ -21,25 +21,49 @@ padding: 7px;
 
 #dropdownMenu1 {
 
-  width: 150px;
+  width: 110px;
   padding: 6px;
   margin-top: 6px;
   background-color: red;
   color: white;
 }
 
-.nav li li {
+.nav-sidebar li {
 
-display: inline-block;
-
+  display: inline-block;
+  overflow: hidden;
 }
+
 
 li img {
 
-  box-sizing: 30px;
-  height: 30px;
+
+  box-sizing: 100px;
+  height: 100px;
   display: inline-block;
 
+}
+
+.article-thumbnail-item img {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+}
+
+.socialmedia-menu {
+
+width: 400px;
+height:100px;
+
+color: black;
+}
+
+.socialmedia-menu div{
+
+left : 10%;
+top :5%;
+
+padding: 5px;
 }
 
 
