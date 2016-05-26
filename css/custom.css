@@ -1,1 +1,42 @@
 /* You can include your custom styling here */
+/*navbar*/
+
+
+/*sidebar*/
+
+
+
+/*content*/
+.img-responsive {
+
+  width:100%;
+}
+
+.content {
+  font-size: 30px;
+}
+
+h3 {
+
+  font-size: 18px;
+}
+
+p {
+font-size:14px;
+}
+
+.wrapping {
+  background-color: white;
+}
+
+.main {
+  background-color: rgb(236,239, 240);
+}
+
+
+.col-sm-12.col-lg-9.main.wrappiong
+
+
+.wrapping {
+  background-color: white;
+}
